@@ -1,0 +1,49 @@
+#   Set Paths
+#   ------------------------------------------------------------
+    export MAMP_PHP=/Applications/MAMP/bin/php/php5.5.14/bin
+    export PATH=$MAMP_PHP:$PATH
+    export NODE_PATH=/usr/local/lib/node_modules
+
+    export PS1="\w \u$ "
+
+#   Set Default Editor
+#   ------------------------------------------------------------
+    export EDITOR=/usr/bin/vi
+
+#   Set default blocksize for ls, df, du
+#   ------------------------------------------------------------
+    export BLOCKSIZE=1k
+
+#   Terminal Shortcuts
+#   ------------------------------------------------------------
+
+alias f='open -a Finder ./'
+alias path='echo -e ${PATH//:/\\n}'
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+cd() { builtin cd "$@"; ls; }
+alias ~="cd ~"
+alias cd..='cd ../'
+alias ..='cd ../'
+alias ...='cd ../../'
+alias .3='cd ../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../../'
+alias .6='cd ../../../../../../'
+alias c='clear'
+alias l='ls -alF'
+alias ll='ls -l'
+alias la='ls -la'
+
+#   Add color to terminal
+#   ------------------------------------------------------------
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+
+# Setting PATH for Python 3.4
+# The orginal version is saved in .bash_profile.pysave
+# PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
+# export PATH
+
+alias cdmamp='cd /Applications/MAMP/htdocs/'
+alias cdmammoth='cd /Applications/MAMP/htdocs/mammoth/wp-content/themes/mammoth/'
