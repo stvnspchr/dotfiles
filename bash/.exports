@@ -1,0 +1,7 @@
+#   Set Default Editor
+#   ------------------------------------------------------------
+export EDITOR=/usr/bin/vi
+
+#   Set default blocksize for ls, df, du
+#   ------------------------------------------------------------
+export BLOCKSIZE=1k

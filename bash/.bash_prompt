@@ -1,0 +1,6 @@
+#   Add color to terminal
+#   ------------------------------------------------------------
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxegedabagacad
+
+export PS1="\w \u$ "

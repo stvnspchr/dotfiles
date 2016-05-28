@@ -1,0 +1,43 @@
+#   Terminal Shortcuts
+#   ------------------------------------------------------------
+
+# Easier navigation
+alias ~="cd ~"
+alias cd..='cd ../'
+alias ..='cd ../'
+alias ...='cd ../../'
+alias .3='cd ../../../'
+alias .4='cd ../../../../'
+alias .5='cd ../../../../../'
+alias .6='cd ../../../../../../'
+
+alias f='open -a Finder ./'
+alias path='echo -e ${PATH//:/\\n}'
+alias c='clear'
+
+# List things
+alias l='ls -alF'
+alias ll='ls -l'
+alias la='ls -la'
+
+# Hide/show hidden files in finder
+alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
+alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
+
+# Hide/show all desktop icons (useful when presenting)
+alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+
+# Get week number
+alias week='date +%V'
+
+# Stopwatch
+alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
+
+# Shortcuts to work
+alias cdmamp='cd /Applications/MAMP/htdocs/'
+alias cdmammoth='cd /Applications/MAMP/htdocs/mammoth/wp-content/themes/mammoth/'
+
+# Set volume
+alias stfu="osascript -e 'set volume output muted true'"
+alias crankit="osascript -e 'set volume 7'"
