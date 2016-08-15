@@ -3,3 +3,7 @@ cd() { builtin cd "$@"; ls; }
 function mkd() {
 	mkdir -p "$@" && cd "$_";
 }
+
+function manpdf() {
+ man -t "${1}" | open -f -a /Applications/Preview.app/
+}
