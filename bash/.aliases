@@ -35,6 +35,7 @@ alias week='date +%V'
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 
 # Shortcuts to work
+alias cdnyt='cd ~/NYT'
 
 # Set volume
 alias stfu="osascript -e 'set volume output muted true'"
