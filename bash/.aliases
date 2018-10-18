@@ -35,10 +35,6 @@ alias week='date +%V'
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
 
 # Shortcuts to work
-alias cdmamp='cd /Applications/MAMP/htdocs/'
-alias cdst='cd /Users/sspeicher/Seattle\ Times'
-alias cdstwp='cd /Users/sspeicher/Seattle\ Times/seatimesdf.wpe'
-alias cdsttheme='cd /Users/sspeicher/Seattle\ Times/seatimesdf.wpe/wp-content/themes/st_refresh'
 
 # Set volume
 alias stfu="osascript -e 'set volume output muted true'"
