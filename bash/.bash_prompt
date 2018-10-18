@@ -3,4 +3,4 @@
 export CLICOLOR=1
 export LSCOLORS=DxFxBxDxCxegedabagacad
 
-export PS1="\w \u$ "
+export PS1="💯 \w \u$ "
