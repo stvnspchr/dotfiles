@@ -1,0 +1,45 @@
+{
+  "workbench.colorTheme": "Ocean Dark Extended",
+  "workbench.iconTheme": "eq-material-theme-icons-ocean",
+  "workbench.sideBar.location": "left",
+  "workbench.panel.defaultLocation": "right",
+  "editor.fontFamily": "'Fira Code'",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.scrollBeyondLastLine": false,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false,
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[golang]": {
+    "editor.tabSize": 4
+  },
+  "materialTheme.accent": "Cyan",
+  "files.insertFinalNewline": true,
+  "cSpell.userWords": [
+    "Fastly",
+    "Kenken",
+    "Xcode",
+    "abra",
+    "devs",
+    "leaderboards",
+    "mixins",
+    "moar",
+    "nvmrc",
+    "nytimes",
+    "nytm",
+    "prefilled",
+    "repos"
+  ],
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "liveshare.authenticationProvider": "GitHub",
+  "prettier.requireConfig": true
+}
