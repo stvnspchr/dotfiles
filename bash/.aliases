@@ -36,7 +36,21 @@ alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date
 
 # Shortcuts to work
 alias cdnyt='cd ~/NYT'
+alias vaultin='vault login -method=github token=$(cat $HOME/.config/vault/github)'
 
 # Set volume
 alias stfu="osascript -e 'set volume output muted true'"
 alias crankit="osascript -e 'set volume 7'"
+
+# Docker
+alias up='docker-compose up'
+alias down='docker-compose down'
+alias build='docker-compose build'
+alias dc='docker-compose'
+alias drm='docker rm -f'
+alias dls='docker ps -a'
+alias dcrun='docker-compose run --rm'
+alias dexec='docker exec -it'
+alias dbash='dc exec'
+alias drm_all='docker rm -f $(docker ps -aq)'
+alias clean='docker system prune -f && docker volume prune -f && docker image prune -f'
