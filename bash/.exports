@@ -6,11 +6,6 @@ export EDITOR=/usr/bin/vi
 #   ------------------------------------------------------------
 export BLOCKSIZE=1k
 
-#   NYT
-#   ------------------------------------------------------------
-export VAULT_ADDR=https://vault-prd.dv.nyt.net
-export VAULT_AUTH_GITHUB_TOKEN=18e941c25fb8a02d8bd48ba59f34556a32ed889f
-
 export BASH_SILENCE_DEPRECATION_WARNING=1
 
 export NVM_DIR="$HOME/.nvm"
