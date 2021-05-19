@@ -9,5 +9,15 @@
     "key": "ctrl+cmd+down",
     "command": "-workbench.action.terminal.resizePaneDown",
     "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+cmd+down",
+    "command": "-editor.action.moveLinesDownAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+cmd+up",
+    "command": "-editor.action.moveLinesUpAction",
+    "when": "editorTextFocus"
   }
 ]
