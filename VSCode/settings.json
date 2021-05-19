@@ -1,6 +1,5 @@
 {
   "workbench.colorTheme": "Ocean Dark Extended",
-  "workbench.iconTheme": "eq-material-theme-icons-ocean",
   "workbench.sideBar.location": "left",
   "workbench.panel.defaultLocation": "right",
   "editor.fontFamily": "'Fira Code'",
@@ -49,5 +48,5 @@
   },
   "liveshare.authenticationProvider": "GitHub",
   "prettier.requireConfig": true,
-  "javascript.preferences.useAliasesForRenames": false,
+  "javascript.preferences.useAliasesForRenames": false
 }
